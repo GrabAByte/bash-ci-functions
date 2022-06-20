@@ -28,4 +28,4 @@ jobs:
       gitEmail: 'grababyte@github.com'
       metadataFile: 'metadata.json'
       metadataPath: .
-    needs: groovy-lint
+    needs: [bash-lint, sonar-scan]
